@@ -1,5 +1,4 @@
 # alphapdf-privacy
-# alphapdf-privacy
 
 Ce dépôt contient la politique de confidentialité et de protection des données pour **Amine Telecom / Noeva Labs**.  
 Il inclut :  

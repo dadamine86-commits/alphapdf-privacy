@@ -1,2 +1,10 @@
 # alphapdf-privacy
-Site officiel Amine Telecom / Noeva Labs – RGPD et politique de confidentialité. Inclut les mentions légales, consentement et politique de protection des données.
+# alphapdf-privacy
+
+Ce dépôt contient la politique de confidentialité et de protection des données pour **Amine Telecom / Noeva Labs**.  
+Il inclut :  
+- Mentions légales  
+- Consentement utilisateur  
+- Politique RGPD et confidentialité  
+
+👉 La page HTML est disponible ici : [privacy.html](./AlphaPDF_Privacy.html)

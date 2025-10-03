@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nos applications – Amine Telecom / Noeva Labs</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:24px;line-height:1.6;background:#0d0f14;color:#e9eef3}
+    a{color:#7cc8ff} h1,h2{margin:0 0 12px} h1{font-size:1.6rem} h2{font-size:1.2rem;margin-top:24px}
+    .wrap{max-width:1000px;margin:auto}
+    .card{background:#121622;border:1px solid #263046;border-radius:14px;padding:18px;margin:14px 0}
+    .muted{opacity:.8}
+    ul{margin:8px 0 0 18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Nos applications</h1>
+    <p class="muted">Chaque fiche résume les points variables (permissions, pub, achats). Les règles générales : 
+      <a href="/alphapdf-privacy/privacy.html">Confidentialité</a> — 
+      <a href="/alphapdf-privacy/terms.html">CGU</a> — 
+      <a href="/alphapdf-privacy/cookies.html">Cookies</a>.
+    </p>
+
+    <!-- FICHE #1 : AlphaPDF -->
+    <div id="alphapdf" class="card">
+      <h2>AlphaPDF – Lecteur PDF</h2>
+      <ul>
+        <li><strong>Éditeur :</strong> Amine Telecom / Noeva Labs</li>
+        <li><strong>Publicité :</strong> Oui (bannière + interstitiel courts via Google AdMob)</li>
+        <li><strong>Achat “Sans pub” :</strong> Oui — achat unique <strong>0,99 €</strong> (Google Play)</li>
+        <li><strong>Achats in-app supplémentaires :</strong> Non</li>
+        <li><strong>Permissions :</strong> Accès au stockage (ouvrir/enregistrer PDF), Internet (pub)</li>
+        <li><strong>SDKs tiers :</strong> Google Mobile Ads (AdMob), UMP (consentement UE) — si activés</li>
+        <li><strong>Données envoyées :</strong> Aucune vers nos serveurs (fichiers en local uniquement)</li>
+        <li><strong>Contact :</strong> <a href="mailto:support@alphapdf.com">support@alphapdf.com</a></li>
+      </ul>
+      <p class="muted">Couverte par nos <a href="/alphapdf-privacy/privacy.html">Règles de confidentialité</a>, 
+        nos <a href="/alphapdf-privacy/terms.html">CGU</a> et notre <a href="/alphapdf-privacy/cookies.html">Politique Cookies</a>.
+      </p>
+    </div>
+
+    <!-- Pour chaque NOUVELLE APP :
+    1) Copier-coller le bloc <div class="card"> ci-dessus
+    2) Changer l’id (ex: id="pdfscanner"), le nom, pub/achats/permissions/SDKs
+    3) L’app Android pointera vers : /alphapdf-privacy/apps/#pdfscanner
+    -->
+  </div>
+</body>
+</html>

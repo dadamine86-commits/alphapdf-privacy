@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Fond rouge -->
+  <rect width="64" height="64" fill="#EF4444" rx="8"/>
+  
+  <!-- Texte PDF en blanc -->
+  <text x="32" y="43" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PDF</text>
+</svg>
+

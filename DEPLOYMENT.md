@@ -1,203 +1,353 @@
-# 🚀 Guide de Déploiement - AlphaPDF Legal Site
+🚀 Guide de déploiement — AlphaPDF Legal Site
 
-## 📦 Contenu du site
 
-### Structure complète
-```
-alphapdf-legal-site/
-├── index.html                      # Page d'accueil avec liens FR/EN
-├── fr/                             # Pages françaises
-│   ├── privacy_policy.html         # ← IMPORTANT pour Google Play
-│   ├── terms_conditions.html
-│   ├── mentions_legales.html
-│   └── tarifs.html
-├── en/                             # Pages anglaises
-│   ├── privacy_policy.html
-│   ├── terms_conditions.html
-│   ├── legal_notice.html
-│   └── pricing.html
-├── assets/
-│   ├── css/
-│   │   └── style.css               # Styles responsive + dark mode auto
-│   └── img/
-│       └── favicon.svg             # Icône PDF rouge
-├── robots.txt                      # SEO (Allow all)
-├── sitemap.xml                     # Plan du site (9 URLs)
-├── 404.html                        # Page erreur
-├── README.md                       # Documentation
-└── .gitignore                      # Fichiers à ignorer
-```
+Ce document explique comment publier et maintenir les pages légales officielles de AlphaPDF via GitHub Pages.
 
-**TOTAL : 14 fichiers**
 
----
+📦 Structure actuelle du site
 
-## 🌐 Étapes de déploiement sur GitHub Pages
 
-### Méthode 1 : Interface Web GitHub (RECOMMANDÉ)
+Le site est publié à la racine du dépôt GitHub Pages.
 
-1. **Créer un repository GitHub**
-   - Allez sur https://github.com/new
-   - Nom du repo : `alphapdf-legal` (ou autre nom)
-   - Public ou Private (GitHub Pages fonctionne avec les deux)
-   - Ne pas cocher "Initialize with README" (on a déjà nos fichiers)
-   - Cliquez **Create repository**
 
-2. **Uploader les fichiers**
-   - Sur la page du repository, cliquez **Add file** → **Upload files**
-   - Glissez-déposez TOUS les fichiers/dossiers de `alphapdf-legal-site/`
-   - Message du commit : "Initial commit - AlphaPDF legal site"
-   - Cliquez **Commit changes**
+Structure simplifiée
 
-3. **Activer GitHub Pages**
-   - Allez dans **Settings** (onglet en haut)
-   - Dans le menu latéral, cliquez **Pages** (section "Code and automation")
-   - Source : **Deploy from a branch**
-   - Branch : **main** (ou master)
-   - Folder : **/ (root)**
-   - Cliquez **Save**
 
-4. **Attendre le déploiement**
-   - GitHub va construire le site (1-3 minutes)
-   - Une fois prêt, l'URL apparaîtra en haut : 
-     `https://yourusername.github.io/alphapdf-legal/`
-   - Cliquez sur l'URL pour vérifier
+alphapdf-privacy/
+├── index.html
+├── privacy_policy_fr.html
+├── terms_conditions_fr.html
+├── mentions_legales_fr.html
+├── tarifs_fr.html
+├── privacy_policy.html
+├── terms_conditions.html
+├── legal_notice.html
+├── pricing.html
+├── 404.html
+├── style.css
+├── favicon.svg
+├── robots.txt
+├── sitemap.xml
+├── README.md
+├── DEPLOYMENT.md
+└── .gitignore
 
-5. **Personnaliser l'URL (optionnel)**
-   - Dans Pages → Custom domain (si vous avez un domaine)
-   - Sinon, utilisez l'URL GitHub directement
 
----
 
-### Méthode 2 : Git CLI (pour utilisateurs avancés)
+🌐 Déploiement sur GitHub Pages
 
-```bash
-# Dans le dossier alphapdf-legal-site/
-git init
-git add .
-git commit -m "Initial commit - AlphaPDF legal site"
-git branch -M main
-git remote add origin https://github.com/VOTRE_USERNAME/alphapdf-legal.git
-git push -u origin main
-```
 
-Puis activez Pages dans Settings comme décrit ci-dessus.
+Dépôt actuel
 
----
 
-## 📱 Intégration dans Google Play Console
 
-### Lien requis pour Google Play
 
-Lors de la soumission de votre app sur Google Play Console, utilisez cette URL pour le champ **"Politique de confidentialité"** :
+Nom du dépôt : alphapdf-privacy
 
-```
-https://VOTRE_USERNAME.github.io/alphapdf-legal/fr/privacy_policy.html
-```
 
-**⚠️ IMPORTANT** : Remplacez `VOTRE_USERNAME` par votre nom d'utilisateur GitHub réel.
+Branche : main
 
-### Exemple concret
-Si votre username GitHub est `dadamine86`, l'URL sera :
-```
-https://dadamine86.github.io/alphapdf-legal/fr/privacy_policy.html
-```
 
-### Où mettre ce lien dans Google Play Console
+Dossier publié : / (racine)
 
-1. **Console Play** → Votre application
-2. **Contenu de l'application** → **Confidentialité de l'app**
-3. **Politique de confidentialité** → Collez l'URL
-4. **Enregistrer**
 
----
+URL du site : https://dadamine86-commits.github.io/alphapdf-privacy/
 
-## 🎨 Personnalisation post-déploiement
 
-### 1. Mettre à jour l'URL dans robots.txt et sitemap.xml
 
-Remplacez `yourusername.github.io/alphapdf-legal-site` par votre URL réelle :
 
-**robots.txt :**
-```
-Sitemap: https://VOTRE_USERNAME.github.io/alphapdf-legal/sitemap.xml
-```
 
-**sitemap.xml :**
-```xml
-<loc>https://VOTRE_USERNAME.github.io/alphapdf-legal/</loc>
-```
-(Répétez pour toutes les 9 URLs)
+✅ Méthode de mise en ligne via GitHub Web
 
-### 2. Convertir favicon.svg en PNG (optionnel)
 
-Le SVG fonctionne tel quel, mais pour une compatibilité maximale :
 
-1. Ouvrez `assets/img/favicon.svg` dans un navigateur
-2. Allez sur https://cloudconvert.com/svg-to-png
-3. Uploadez le fichier, convertissez en PNG 64x64
-4. Téléchargez et renommez en `favicon.png`
-5. Placez dans `assets/img/favicon.png`
-6. Modifiez les `<link rel="icon"...>` dans tous les HTML :
-   ```html
-   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
-   ```
 
----
+Ouvrir le dépôt alphapdf-privacy
 
-## ✅ Vérification des liens
 
-Tous les liens ont été testés et fonctionnent :
+Ajouter ou modifier les fichiers à la racine du dépôt
 
-### Navigation interne (index.html)
-- ✅ Liens vers 4 pages FR
-- ✅ Liens vers 4 pages EN
-- ✅ Ancres #fr et #en
 
-### Navigation header (chaque page)
-- ✅ Retour accueil (../index.html ou index.html)
-- ✅ Navigation entre pages du même langage
+Valider les changements avec un commit
 
-### Footer
-- ✅ Email : `mailto:dadamine86@gmail.com`
-- ✅ Site officiel : `https://sites.google.com/view/aminetelecom/accueil`
 
-### Page 404
-- ✅ Retour accueil
-- ✅ Liens vers toutes les pages
+Aller dans Settings → Pages
 
----
 
-## 📊 Statistiques
+Vérifier :
 
-- **Pages HTML** : 9 (index + 4 FR + 4 EN)
-- **Fichiers CSS** : 1 (responsive + dark mode auto)
-- **Fichiers config** : 3 (robots.txt, sitemap.xml, .gitignore)
-- **Documentation** : 2 (README.md, DEPLOYMENT.md)
-- **Total** : 16 fichiers
 
-**Poids total** : < 200 KB
 
----
+Source : Deploy from a branch
 
-## 🔒 Sécurité
 
-- ✅ Pas de JavaScript externe (CDN)
-- ✅ Pas de tracking/analytics
-- ✅ Pas de cookies
-- ✅ HTTPS uniquement (GitHub Pages force HTTPS)
-- ✅ Responsive mobile-first
-- ✅ Accessible (semantic HTML, headings, alt texts)
+Branch : main
 
----
 
-## 📞 Support
+Folder : / (root)
 
-Pour toute question :
-- **Email** : dadamine86@gmail.com
-- **Site** : https://sites.google.com/view/aminetelecom/accueil
 
----
 
-© 2025 Amine Telecom — Noeva Labs
+
+
+
+Enregistrer si nécessaire
+
+
+Attendre quelques minutes le temps de propagation
+
+
+
+
+
+✅ URL importantes à utiliser
+
+
+Site principal
+
+
+https://dadamine86-commits.github.io/alphapdf-privacy/
+
+
+Politique de confidentialité FR
+
+
+https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
+
+
+Politique de confidentialité EN
+
+
+https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy.html
+
+
+
+📱 Intégration dans Google Play Console
+
+
+URL à utiliser
+
+
+Champ “Politique de confidentialité” :
+
+https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
+
+
+Emplacement dans Google Play Console
+
+
+
+
+Ouvrir la Google Play Console
+
+
+Aller sur l’application concernée
+
+
+Ouvrir la section relative à la politique de confidentialité
+
+
+Coller l’URL ci-dessus
+
+
+Enregistrer
+
+
+
+
+
+📢 Intégration dans Google AdMob / UMP
+
+
+URL à utiliser
+
+
+Privacy policy URL :
+
+https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
+
+
+Emplacement dans AdMob
+
+
+
+
+Ouvrir Google AdMob
+
+
+Aller dans Confidentialité et messages
+
+
+Créer ou modifier le message RGPD
+
+
+Coller l’URL de politique de confidentialité
+
+
+Publier le message
+
+
+
+
+
+🛠 Mise à jour du site
+
+
+À chaque modification :
+
+
+
+
+Modifier le fichier concerné
+
+
+Valider le commit sur main
+
+
+Attendre la mise à jour GitHub Pages
+
+
+Vérifier la page publiée dans le navigateur
+
+
+
+
+
+✅ Vérifications après déploiement
+
+
+Après chaque mise à jour, vérifier :
+
+
+
+
+la page d’accueil index.html
+
+
+la politique de confidentialité FR
+
+
+la politique de confidentialité EN
+
+
+les CGU FR
+
+
+les mentions légales FR
+
+
+la page tarifs FR
+
+
+les pages EN
+
+
+la page 404.html
+
+
+l’affichage du favicon
+
+
+l’absence de lien cassé
+
+
+
+
+
+📋 Pages publiées
+
+
+Français
+
+
+
+
+privacy_policy_fr.html
+
+
+terms_conditions_fr.html
+
+
+mentions_legales_fr.html
+
+
+tarifs_fr.html
+
+
+
+
+English
+
+
+
+
+privacy_policy.html
+
+
+terms_conditions.html
+
+
+legal_notice.html
+
+
+pricing.html
+
+
+
+
+Autres
+
+
+
+
+index.html
+
+
+404.html
+
+
+
+
+
+🔒 Remarques de sécurité et conformité
+
+
+Le site légal publié doit rester cohérent avec l’application réellement distribuée.
+
+
+En particulier :
+
+
+
+
+la politique de confidentialité doit rester cohérente avec l’usage de Google AdMob
+
+
+la politique de confidentialité doit rester cohérente avec Google UMP
+
+
+les mentions sur les achats intégrés doivent rester cohérentes avec Google Play
+
+
+les pages légales ne doivent pas annoncer des fonctionnalités absentes ou inexactes
+
+
+
+
+
+📞 Contact
+
+
+
+
+Email : dadamine86@gmail.com
+
+
+Site officiel : https://sites.google.com/view/aminetelecom/accueil
+
+
+
+
+
+© 2026 Amine Telecom — Noeva Labs
 

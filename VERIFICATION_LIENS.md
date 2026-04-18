@@ -1,127 +1,338 @@
-# ✅ VÉRIFICATION DES LIENS — AlphaPDF Legal Site
+✅ Vérification des liens — AlphaPDF Legal Site
 
-## 📋 Date : 18 octobre 2025
 
----
+📋 Date de vérification
 
-## 🔗 TOUS LES LIENS TESTÉS ET FONCTIONNELS
 
-### **index.html (Page d'accueil)**
+18/04/2026
 
-#### Liens internes (cartes) :
-- ✅ `privacy_policy_fr.html` → Politique FR
-- ✅ `terms_conditions_fr.html` → CGU FR
-- ✅ `mentions_legales_fr.html` → Mentions FR
-- ✅ `tarifs_fr.html` → Tarifs FR
-- ✅ `privacy_policy.html` → Privacy EN
-- ✅ `terms_conditions.html` → Terms EN
-- ✅ `legal_notice.html` → Legal EN
-- ✅ `pricing.html` → Pricing EN
 
-#### Ancres :
-- ✅ `#fr` → Section française
-- ✅ `#en` → Section anglaise
 
-#### Liens externes (footer) :
-- ✅ `mailto:dadamine86@gmail.com` → Email
-- ✅ `https://sites.google.com/view/aminetelecom/accueil` → Site officiel
+🔗 Liens internes vérifiés
 
----
 
-### **Pages FR (4 fichiers)**
+index.html
 
-#### privacy_policy_fr.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email + site officiel
-- ✅ Header nav : `index.html`
 
-#### terms_conditions_fr.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email
-- ✅ Header nav : `index.html`
+Pages françaises
 
-#### mentions_legales_fr.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email + site officiel
-- ✅ Header nav : `index.html`
 
-#### tarifs_fr.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email
-- ✅ Header nav : `index.html`
 
----
 
-### **Pages EN (4 fichiers)**
+✅ privacy_policy_fr.html
 
-#### privacy_policy.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email
-- ✅ Header nav : `index.html`
 
-#### terms_conditions.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email
-- ✅ Header nav : `index.html`
+✅ terms_conditions_fr.html
 
-#### legal_notice.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email + site officiel
-- ✅ Header nav : `index.html`
 
-#### pricing.html
-- ✅ Lien retour : `index.html`
-- ✅ Footer : email
-- ✅ Header nav : `index.html`
+✅ mentions_legales_fr.html
 
----
 
-### **404.html**
-- ✅ Lien principal : `index.html`
-- ✅ 8 liens vers toutes les pages (FR + EN)
+✅ tarifs_fr.html
 
----
 
-## ✅ FICHIERS REQUIS (15/15)
 
-- [x] index.html
-- [x] privacy_policy_fr.html
-- [x] terms_conditions_fr.html
-- [x] mentions_legales_fr.html
-- [x] tarifs_fr.html
-- [x] privacy_policy.html
-- [x] terms_conditions.html
-- [x] legal_notice.html
-- [x] pricing.html
-- [x] style.css
-- [x] favicon.svg
-- [x] robots.txt
-- [x] sitemap.xml
-- [x] 404.html
-- [x] README.md
 
----
+Pages anglaises
 
-## ✅ AUCUN LIEN 404
 
-Tous les liens internes pointent vers des fichiers existants à la racine.  
-Aucun chemin `/fr/` ou `/en/` (tout à la racine comme requis).
 
----
 
-## 🚀 PRÊT À UPLOADER SUR GITHUB
+✅ privacy_policy.html
 
-Le site est **100% fonctionnel** et peut être uploadé directement sur GitHub.
 
-**Procédure :**
-1. GitHub → Repository alphapdf-privacy → Add file → Upload files
-2. Glisser-déposer TOUS les 17 fichiers de ce dossier
-3. Commit → Settings → Pages → Deploy from main / (root)
-4. Attendre 2-3 min
+✅ terms_conditions.html
 
-**URL finale :** https://dadamine86-commits.github.io/alphapdf-privacy/
 
----
+✅ legal_notice.html
 
-✅ **SITE VÉRIFIÉ ET PRÊT**
+
+✅ pricing.html
+
+
+
+
+Ancres
+
+
+
+
+✅ #fr
+
+
+✅ #en
+
+
+
+
+Liens externes
+
+
+
+
+✅ mailto:dadamine86@gmail.com
+
+
+✅ https://sites.google.com/view/aminetelecom/accueil
+
+
+
+
+
+🇫🇷 Pages françaises
+
+
+privacy_policy_fr.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel
+
+
+
+
+terms_conditions_fr.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel si présent
+
+
+
+
+mentions_legales_fr.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel
+
+
+
+
+tarifs_fr.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel si présent
+
+
+
+
+
+🇬🇧 Pages anglaises
+
+
+privacy_policy.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel si présent
+
+
+
+
+terms_conditions.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel si présent
+
+
+
+
+legal_notice.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel
+
+
+
+
+pricing.html
+
+
+
+
+✅ retour vers index.html
+
+
+✅ lien email
+
+
+✅ lien site officiel si présent
+
+
+
+
+
+404.html
+
+
+
+
+✅ lien principal vers index.html
+
+
+✅ liens vers les pages françaises
+
+
+✅ liens vers les pages anglaises
+
+
+
+
+
+✅ Fichiers principaux présents
+
+
+
+
+[x] index.html
+
+
+[x] privacy_policy_fr.html
+
+
+[x] terms_conditions_fr.html
+
+
+[x] mentions_legales_fr.html
+
+
+[x] tarifs_fr.html
+
+
+[x] privacy_policy.html
+
+
+[x] terms_conditions.html
+
+
+[x] legal_notice.html
+
+
+[x] pricing.html
+
+
+[x] style.css
+
+
+[x] favicon.svg
+
+
+[x] robots.txt
+
+
+[x] sitemap.xml
+
+
+[x] 404.html
+
+
+[x] README.md
+
+
+[x] INSTRUCTIONS_DEPLOIEMENT.md
+
+
+[x] VERIFICATION_LIENS.md
+
+
+
+
+
+✅ Structure des chemins
+
+
+Tous les liens internes doivent pointer vers des fichiers présents à la racine du dépôt.
+
+
+
+
+✅ aucun dossier /fr/
+
+
+✅ aucun dossier /en/
+
+
+✅ aucun dossier /assets/
+
+
+✅ chemins cohérents avec la structure actuelle du dépôt
+
+
+
+
+
+🌐 URL publique attendue
+
+
+Site principal :
+
+https://dadamine86-commits.github.io/alphapdf-privacy/
+
+
+Politique de confidentialité FR :
+
+https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
+
+
+
+✅ Statut
+
+
+Les liens du site légal AlphaPDF sont vérifiés sur la base de la structure actuelle du dépôt et des chemins attendus.
+
+
+Statut : site prêt à être publié et contrôlé sur GitHub Pages.
 

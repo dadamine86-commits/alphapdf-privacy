@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Politique de confidentialité AlphaPDF - RGPD, IA locale, données locales uniquement">
+    <meta name="description" content="Politique de confidentialité AlphaPDF - RGPD, publicités, consentement, traitement local des fichiers et OCR sur appareil">
     <title>AlphaPDF — Politique de confidentialité (RGPD)</title>
     <link rel="icon" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
@@ -20,110 +20,167 @@
 
     <div class="container">
         <p><a class="back" href="index.html">← Retour à l'accueil</a></p>
-        
+
         <div class="article">
             <h1>Politique de confidentialité (RGPD)</h1>
-            <p><em>Dernière mise à jour : 18/10/2025</em></p>
-            
+            <p><em>Dernière mise à jour : 18/04/2026</em></p>
+
             <h2>1. Responsable du traitement</h2>
             <div class="info-box">
-                <p><strong>Marque :</strong> Noeva Labs<br>
-                <strong>Éditeur légal :</strong> Amine Telecom — Amine Lalouani<br>
-                <strong>Adresse :</strong> 89B Grande Rue, 59100 Roubaix, France<br>
-                <strong>SIRET :</strong> 81036711000014<br>
-                <strong>Email :</strong> <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a><br>
-                <strong>Site officiel :</strong> <a href="https://sites.google.com/view/aminetelecom/accueil" target="_blank">Amine Telecom</a></p>
+                <p>
+                    <strong>Application :</strong> AlphaPDF<br>
+                    <strong>Marque :</strong> Noeva Labs<br>
+                    <strong>Éditeur légal :</strong> Amine Telecom — Amine Lalouani<br>
+                    <strong>Adresse :</strong> 89B Grande Rue, 59100 Roubaix, France<br>
+                    <strong>SIRET :</strong> 81036711000014<br>
+                    <strong>Email :</strong> <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a><br>
+                    <strong>Site officiel :</strong> <a href="https://sites.google.com/view/aminetelecom/accueil" target="_blank" rel="noopener noreferrer">Amine Telecom</a>
+                </p>
             </div>
-            
-            <h2>2. Traitement des données</h2>
+
+            <h2>2. Données traitées par l’application</h2>
+            <p>AlphaPDF est une application de lecture, scan et gestion de fichiers PDF. Une grande partie du traitement est effectuée localement sur votre appareil.</p>
+
+            <p><strong>Données et contenus traités localement sur votre appareil :</strong></p>
+            <ul>
+                <li><strong>Fichiers PDF</strong> : ouverture, lecture, affichage, partage et impression depuis votre appareil.</li>
+                <li><strong>Images scannées</strong> : stockées temporairement dans le cache local de l’application ou dans l’emplacement choisi par l’utilisateur.</li>
+                <li><strong>Texte OCR</strong> : traité localement sur l’appareil lorsque cette fonctionnalité est disponible.</li>
+                <li><strong>Préférences de l’application</strong> : thème, paramètres, état Pro temporaire, choix utilisateur.</li>
+                <li><strong>Choix de consentement publicitaire</strong> : enregistrés localement et/ou gérés via les solutions Google prévues à cet effet.</li>
+            </ul>
+
             <div class="warning-box">
-                <p><strong>⚠️ Tout est local — Aucune donnée transmise à des serveurs</strong></p>
+                <p><strong>Important :</strong> Les fichiers PDF, images scannées et la majorité des préférences de l’application restent stockés localement sur votre appareil, sauf action explicite de votre part (partage, impression, export, sauvegarde manuelle, etc.).</p>
             </div>
-            
-            <p><strong>Données traitées localement sur votre appareil :</strong></p>
+
+            <h2>3. Publicités et consentement</h2>
+            <p>AlphaPDF peut afficher des publicités via <strong>Google AdMob</strong>. L’affichage des publicités personnalisées ou non personnalisées dépend notamment de votre région, de votre appareil et de vos choix de consentement.</p>
+
+            <h3>3.1 Gestion du consentement</h3>
+            <p>Pour les utilisateurs situés dans les régions concernées par la réglementation applicable, AlphaPDF utilise la solution <strong>Google User Messaging Platform (UMP)</strong> afin de recueillir, gérer ou mettre à jour les choix de consentement liés à la diffusion de publicités.</p>
+
+            <p>Lorsque requis, l’application peut :</p>
             <ul>
-                <li><strong>Fichiers PDF</strong> : Restent uniquement sur votre appareil</li>
-                <li><strong>Images scannées</strong> : Stockées en cache local de l'app</li>
-                <li><strong>Textes OCR</strong> : Traités localement via ML Kit (Google, on-device)</li>
-                <li><strong>Consentements publicitaires</strong> : Choix utilisateur stockés localement</li>
-                <li><strong>Préférences</strong> : Paramètres de l'app (< 10 KB)</li>
+                <li>afficher un formulaire de consentement au démarrage,</li>
+                <li>proposer des options de gestion des choix de confidentialité,</li>
+                <li>adapter l’affichage des annonces selon les choix de l’utilisateur.</li>
             </ul>
-            
-            <h2>3. IA locale (assistant intelligent embarqué)</h2>
-            <div class="success-box">
-                <h3>🤖 IA sans connexion Internet</h3>
-            </div>
-            <p>AlphaPDF intègre un assistant intelligent pour améliorer la lecture/scanner :</p>
+
+            <h3>3.2 Google AdMob</h3>
+            <p>Les publicités sont fournies par <strong>Google AdMob</strong>. Dans ce cadre, Google et ses partenaires peuvent traiter certaines données conformément à leurs propres politiques et aux choix de consentement effectués par l’utilisateur.</p>
+
+            <p>Selon votre situation, cela peut inclure notamment :</p>
             <ul>
-                <li><strong>Pas de voix</strong> : Interface silencieuse, suggestions textuelles uniquement</li>
-                <li><strong>Pas d'analyse externe</strong> : Tout le traitement sur votre appareil</li>
-                <li><strong>Suggestions intelligentes</strong> : "Reprendre la lecture ?", "Créer le PDF ?", etc.</li>
-                <li><strong>Stockage minimal</strong> : < 5 KB de données locales</li>
-                <li><strong>Désactivable</strong> : Option ON/OFF dans Paramètres</li>
+                <li>des informations techniques sur l’appareil et l’application,</li>
+                <li>des identifiants publicitaires,</li>
+                <li>des informations liées aux performances publicitaires, à la prévention de la fraude et à la diffusion des annonces,</li>
+                <li>des informations nécessaires à la mesure, à la personnalisation ou à la limitation des annonces, selon les choix de consentement.</li>
             </ul>
-            
-            <h2>4. Publicités</h2>
-            <p>Les publicités sont affichées <strong>uniquement après accord explicite</strong>.</p>
-            
-            <h3>4.1 Vidéo récompense (innovation AlphaPDF)</h3>
-            <p><strong>Une vidéo de 60 secondes = 1 heure d'accès complet</strong></p>
+
+            <p>Pour en savoir plus, vous pouvez également consulter les informations fournies par Google concernant ses services publicitaires et la confidentialité.</p>
+
+            <h3>3.3 Vidéo récompensée</h3>
+            <p>AlphaPDF peut proposer un système de <strong>vidéo récompensée</strong>. Lorsqu’un utilisateur regarde une publicité vidéo éligible jusqu’à son terme, l’application peut lui accorder un accès temporaire à certaines fonctionnalités ou à une période sans publicité, selon les règles affichées dans l’application au moment de l’offre.</p>
+
+            <p>Exemple de fonctionnement actuel :</p>
             <ul>
-                <li>Regardez une vidéo publicitaire de 60 secondes (visionnage complet requis)</li>
-                <li>Débloquez scanner, OCR, partage, sans pub pendant 1 heure</li>
-                <li>Renouvelable autant de fois que souhaité</li>
+                <li>visionnage complet d’une vidéo publicitaire,</li>
+                <li>activation temporaire d’un mode Pro ou sans publicité,</li>
+                <li>durée et conditions précisées directement dans l’application.</li>
             </ul>
-            
-            <h3>4.2 Google AdMob</h3>
-            <p>Régie publicitaire : Google AdMob (conforme aux règles Google).</p>
-            
-            <h2>5. Base légale</h2>
+
+            <h2>4. Achats intégrés / mode Pro</h2>
+            <p>AlphaPDF peut proposer des fonctionnalités payantes ou un mode Pro via les systèmes de paiement de la plateforme concernée, notamment Google Play.</p>
+
+            <p>Dans ce cadre, l’application peut traiter des informations liées à :</p>
             <ul>
-                <li><strong>Consentement de l'utilisateur</strong> : requis pour les publicités et le traitement des données</li>
-                <li><strong>Intérêt légitime</strong> : fonctionnement essentiel de l'application</li>
+                <li>l’état de l’achat (actif, inactif, restauré),</li>
+                <li>l’identification technique nécessaire à la validation de l’achat,</li>
+                <li>l’activation locale des droits liés au mode Pro.</li>
             </ul>
-            
-            <h2>6. Vos droits (RGPD)</h2>
-            <p>Vous disposez des droits suivants :</p>
+
+            <p>AlphaPDF ne collecte pas directement vos coordonnées bancaires. Les paiements sont gérés par la plateforme de distribution concernée.</p>
+
+            <h2>5. Base légale du traitement</h2>
             <ul>
-                <li><strong>Accès</strong> : Consulter vos données locales</li>
-                <li><strong>Rectification</strong> : Modifier vos préférences</li>
-                <li><strong>Suppression</strong> : Effacer toutes les données (bouton dans Paramètres)</li>
-                <li><strong>Portabilité</strong> : Exporter vos données (nous contacter par email)</li>
+                <li><strong>Exécution du service</strong> : pour permettre le fonctionnement normal de l’application (lecture PDF, scan, OCR, paramètres, impression, partage).</li>
+                <li><strong>Consentement</strong> : pour les publicités et la gestion des choix de confidentialité lorsque la réglementation l’exige.</li>
+                <li><strong>Intérêt légitime</strong> : pour la sécurité, la prévention des abus, les performances techniques et le bon fonctionnement général de l’application.</li>
+                <li><strong>Obligations légales</strong> : lorsque la loi impose certaines mesures de conservation, de conformité ou d’information.</li>
             </ul>
-            
-            <p><strong>Exercer vos droits :</strong> <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a></p>
-            
+
+            <h2>6. Destinataires et partenaires</h2>
+            <p>Selon les fonctionnalités utilisées, certaines données techniques ou certains signaux peuvent être traités par des services tiers, notamment :</p>
+            <ul>
+                <li><strong>Google AdMob</strong> pour la diffusion et la mesure des annonces,</li>
+                <li><strong>Google UMP</strong> pour la gestion des messages et choix de consentement,</li>
+                <li><strong>Google Play</strong> pour la gestion des achats intégrés,</li>
+                <li>éventuellement certains composants Google utilisés sur l’appareil pour des traitements locaux ou de compatibilité.</li>
+            </ul>
+
             <h2>7. Conservation des données</h2>
-            <p>Données stockées localement jusqu'à :</p>
+            <p>La durée de conservation dépend de la nature des données :</p>
             <ul>
-                <li>Désinstallation de l'application</li>
-                <li>Suppression manuelle via Paramètres</li>
-                <li>Effacement cache Android</li>
+                <li><strong>Fichiers et scans locaux</strong> : jusqu’à leur suppression par l’utilisateur, leur écrasement, ou la désinstallation de l’application.</li>
+                <li><strong>Préférences locales</strong> : jusqu’à réinitialisation, suppression manuelle ou désinstallation.</li>
+                <li><strong>Consentements publicitaires</strong> : selon les mécanismes de stockage locaux et/ou les outils de consentement fournis par Google.</li>
+                <li><strong>Informations liées au mode Pro</strong> : selon l’état de l’achat, la restauration des achats et les besoins techniques de l’application.</li>
             </ul>
-            
-            <h2>8. Cookies tiers</h2>
-            <p><strong>Aucun cookie tiers.</strong> Uniquement SharedPreferences Android (stockage local).</p>
-            
+
+            <h2>8. Vos droits</h2>
+            <p>Conformément à la réglementation applicable, vous pouvez disposer des droits suivants, selon votre situation :</p>
+            <ul>
+                <li><strong>Droit d’accès</strong></li>
+                <li><strong>Droit de rectification</strong></li>
+                <li><strong>Droit d’effacement</strong></li>
+                <li><strong>Droit à la limitation</strong></li>
+                <li><strong>Droit d’opposition</strong></li>
+                <li><strong>Droit à la portabilité</strong></li>
+                <li><strong>Droit de retirer votre consentement</strong> à tout moment lorsque le traitement repose sur celui-ci</li>
+            </ul>
+
+            <p>Vous pouvez également :</p>
+            <ul>
+                <li>modifier certains paramètres directement dans l’application,</li>
+                <li>gérer vos choix publicitaires ou de confidentialité lorsque l’option est disponible dans l’app,</li>
+                <li>nous contacter à l’adresse suivante : <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a>.</li>
+            </ul>
+
             <h2>9. Âge minimum</h2>
-            <p>Âge minimum requis : <strong>16 ans</strong> (conformité RGPD pour les mineurs).</p>
-            
-            <h2>10. Contact</h2>
-            <p>📧 <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a><br>
-            📮 89B Grande Rue, 59100 Roubaix, France</p>
+            <p>AlphaPDF peut appliquer une vérification d’âge ou des restrictions selon les exigences réglementaires applicables. Certaines fonctionnalités publicitaires peuvent être limitées ou adaptées selon l’âge déclaré ou déduit dans le cadre du flux de consentement.</p>
+
+            <p>Si vous êtes parent ou représentant légal et pensez qu’un mineur a utilisé l’application en contradiction avec les règles applicables, vous pouvez nous contacter.</p>
+
+            <h2>10. Sécurité</h2>
+            <p>Nous mettons en place des mesures raisonnables pour limiter les accès non autorisés, les erreurs de traitement et les usages non prévus des données gérées par l’application. Toutefois, aucun système n’est totalement exempt de risque.</p>
+
+            <h2>11. Liens externes et services tiers</h2>
+            <p>L’application ou le site associé peut contenir des liens vers des services tiers. Nous vous invitons à consulter leurs propres politiques de confidentialité, qui s’appliquent à leurs services respectifs.</p>
+
+            <h2>12. Modifications de la présente politique</h2>
+            <p>La présente politique de confidentialité peut être mise à jour à tout moment pour tenir compte des évolutions légales, techniques ou fonctionnelles de l’application. La date de mise à jour figurant en haut de cette page fait foi.</p>
+
+            <h2>13. Contact</h2>
+            <p>
+                📧 <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a><br>
+                📮 89B Grande Rue, 59100 Roubaix, France
+            </p>
         </div>
     </div>
 
     <footer>
         <div class="container">
-            <p><strong>AlphaPDF</strong> — Lecteur PDF intelligent avec IA locale</p>
+            <p><strong>AlphaPDF</strong> — Lecteur PDF intelligent</p>
             <p>Développé par <strong>Noeva Labs</strong></p>
             <p>Édité par <strong>Amine Telecom — Amine Lalouani</strong></p>
             <p>89B Grande Rue, 59100 Roubaix, France | SIRET : 81036711000014</p>
-            <p>📧 <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a> | 
-               🌐 <a href="https://sites.google.com/view/aminetelecom/accueil" target="_blank">Site officiel</a></p>
-            <p style="margin-top: 16px; font-size: 0.9em;">© 2025 Amine Telecom — Tous droits réservés</p>
+            <p>
+                📧 <a href="mailto:dadamine86@gmail.com">dadamine86@gmail.com</a> |
+                🌐 <a href="https://sites.google.com/view/aminetelecom/accueil" target="_blank" rel="noopener noreferrer">Site officiel</a>
+            </p>
+            <p style="margin-top: 16px; font-size: 0.9em;">© 2026 Amine Telecom — Tous droits réservés</p>
         </div>
     </footer>
 </body>
 </html>
-

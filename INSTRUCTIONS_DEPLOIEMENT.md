@@ -331,11 +331,11 @@ SIRET : 81036711000014
 Email : dadamine86@gmail.com
 
 
-Site officiel : https://sites.google.com/view/aminetelecom/accueil
+Site officiel : https://sites.google.com/view/neovalabs-by-aminetelecom/accueil
 
 
 
 
 
-© 2026 Amine Telecom — Noeva Labs
+© 2026 Amine Telecom — Neova Labs
 

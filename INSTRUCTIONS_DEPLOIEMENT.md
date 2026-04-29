@@ -316,7 +316,7 @@ les pages légales ne doivent pas annoncer des éléments inexacts
 Application : AlphaPDF
 
 
-Marque : Noeva Labs
+Marque : Neova Labs
 
 
 Éditeur légal : Amine Telecom — Amine Lalouani

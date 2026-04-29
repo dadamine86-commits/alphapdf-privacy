@@ -34,7 +34,7 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
 - **Adresse :** 89B Grande Rue, 59100 Roubaix, France
 - **SIRET :** 81036711000014
 - **Contact :** dadamine86@gmail.com
-- **Site officiel :** [Amine Telecom](https://sites.google.com/view/aminetelecom/accueil)
+- **Site officiel :** [Amine Telecom](https://sites.google.com/view/noevalabs-by-aminetelecom/accueil)
 
 ## 🚀 Déploiement
 

@@ -73,7 +73,7 @@ Liens externes
 ✅ mailto:dadamine86@gmail.com
 
 
-✅ https://sites.google.com/view/aminetelecom/accueil
+✅ https://sites.google.com/view/neovalabs-by-aminetelecom/accueil
 
 
 

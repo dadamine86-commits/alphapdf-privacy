@@ -1,6 +1,6 @@
-# AlphaPDF — Pages légales (Noeva Labs)
+# AlphaPDF — Pages légales (Neova Labs)
 
-Ce dépôt contient les pages légales officielles de l’application **AlphaPDF**, développée publiquement sous le nom **Noeva Labs**, éditée par **Amine Telecom**, et hébergées via **GitHub Pages**.
+Ce dépôt contient les pages légales officielles de l’application **AlphaPDF**, développée publiquement sous le nom **Neova Labs**, éditée par **Amine Telecom**, et hébergées via **GitHub Pages**.
 
 ## 🔗 Liens directs
 
@@ -29,7 +29,7 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
 ## 👤 Éditeur / Développeur
 
 - **Application :** AlphaPDF
-- **Développeur public :** Noeva Labs
+- **Développeur public :** Neova Labs
 - **Éditeur :** Amine Telecom — Amine Lalouani
 - **Adresse :** 89B Grande Rue, 59100 Roubaix, France
 - **SIRET :** 81036711000014
@@ -123,7 +123,7 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
 
 ## 👥 Développeur
 
-- **Développeur public :** Noeva Labs  
+- **Développeur public :** Neova Labs  
 - **Éditeur :** Amine Telecom — Amine Lalouani  
 - **Contact :** dadamine86@gmail.com  
 - **SIRET :** 81036711000014  

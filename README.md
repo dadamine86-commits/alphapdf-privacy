@@ -1,6 +1,6 @@
-# AlphaPDF — Legal Pages (Neova Labs)
+# AlphaPDF — Pages légales (Noeva Labs)
 
-Ce dépôt contient les pages légales officielles de l’application **AlphaPDF**, développée sous la marque **Noeva Labs** et hébergées via **GitHub Pages**.
+Ce dépôt contient les pages légales officielles de l’application **AlphaPDF**, développée publiquement sous le nom **Noeva Labs**, éditée par **Amine Telecom**, et hébergées via **GitHub Pages**.
 
 ## 🔗 Liens directs
 
@@ -29,8 +29,8 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
 ## 👤 Éditeur / Développeur
 
 - **Application :** AlphaPDF
-- **Marque :** Neova Labs
-- **Éditeur légal :** Amine Telecom — Amine Lalouani
+- **Développeur public :** Noeva Labs
+- **Éditeur :** Amine Telecom — Amine Lalouani
 - **Adresse :** 89B Grande Rue, 59100 Roubaix, France
 - **SIRET :** 81036711000014
 - **Contact :** dadamine86@gmail.com
@@ -114,11 +114,6 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy.html
 Ce dépôt héberge les pages légales publiques d’AlphaPDF.  
 Il ne contient pas le code source principal de l’application Android.
 
----
-
-© 2026 Amine Telecom — Tous droits réservés- [Legal Notice](https://dadamine86-commits.github.io/alphapdf-privacy/legal_notice.html)
-- [Pricing & Plans](https://dadamine86-commits.github.io/alphapdf-privacy/pricing.html)
-
 ## 📱 Pour Google Play Console
 
 **URL à fournir dans le champ "Politique de confidentialité" :**
@@ -128,8 +123,8 @@ https://dadamine86-commits.github.io/alphapdf-privacy/privacy_policy_fr.html
 
 ## 👥 Développeur
 
-- **Marque :** Neova Labs  
-- **Éditeur légal :** Amine Telecom — Amine Lalouani  
+- **Développeur public :** Noeva Labs  
+- **Éditeur :** Amine Telecom — Amine Lalouani  
 - **Contact :** dadamine86@gmail.com  
 - **SIRET :** 81036711000014  
 - **Site officiel :** [Amine Telecom](https://sites.google.com/view/neovalabs-by-aminetelecom/accueil)
@@ -163,17 +158,17 @@ Ce site est déployé sur **GitHub Pages** :
 - ✅ Favicon SVG (PDF rouge)
 - ✅ Pas de framework externe (pur HTML/CSS)
 
-## ✅ Conformité
+## ✅ Points couverts
 
-- ✅ RGPD complet (droits utilisateur, données locales uniquement)
-- ✅ Mention IA locale (100% offline, aucune transmission)
-- ✅ Publicités récompenses (60s vidéo → 1h accès complet)
-- ✅ Âge minimum : 16 ans
-- ✅ Paiement : Google Play uniquement
-- ✅ Juridiction : Tribunal de Lille
-- ✅ Licence : Usage non commercial uniquement
+- Politique de confidentialité distincte pour les documents, les données techniques locales et les services Google (AdMob, UMP, Play).
+- Version gratuite : 10 opérations réussies par outil et par 24 heures. Ouvrir un PDF ne consomme pas de quota.
+- Pass volontaire de 10 minutes pour un seul outil, après une récompense Google réelle. Il ne recharge pas le quota et ne retire pas toutes les publicités.
+- AlphaPDF Pro : sans quotas et sans publicités de l’application. Prix affiché sur Google Play.
+- Âge demandé dans l’application : 16 ans ou plus.
+- Paiement Pro : Google Play.
+
+Les anciennes mentions « 100 % hors ligne », « aucune transmission » et « 1 heure d’accès complet » ne décrivent plus l’application.
 
 ---
 
-© 2026 Amine Telecom — Neova Labs -
-  Tous droits réservés
+© 2026 Amine Telecom — Tous droits réservés

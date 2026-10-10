@@ -164,7 +164,7 @@ Ce site est déployé sur **GitHub Pages** :
 - Version gratuite : 10 opérations réussies par outil et par 24 heures. Ouvrir un PDF ne consomme pas de quota.
 - Pass volontaire de 10 minutes pour un seul outil, après une récompense Google réelle. Il ne recharge pas le quota et ne retire pas toutes les publicités.
 - AlphaPDF Pro : sans quotas et sans publicités de l’application. Prix affiché sur Google Play.
-- Âge demandé dans l’application : 16 ans ou plus.
+- Âge minimum d’utilisation : 18 ans ou plus.
 - Paiement Pro : Google Play.
 
 Les anciennes mentions « 100 % hors ligne », « aucune transmission » et « 1 heure d’accès complet » ne décrivent plus l’application.
